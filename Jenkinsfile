@@ -28,9 +28,9 @@ pipeline {
             }
         }
 
-        stage('Additional') {
+        stage('Delete') {
             steps {
-                echo 'Adding'
+                echo 'Deleting'
             }
         }
     }
