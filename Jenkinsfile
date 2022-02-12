@@ -27,5 +27,11 @@ pipeline {
                 echo 'Releasing'
             }
         }
+
+        stage('Additional') {
+            steps {
+                echo 'Adding'
+            }
+        }
     }
 }
